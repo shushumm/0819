@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+/*封皮*/
+div{ position:relative}
+.box1{ font-size:40px; color:#000000; position:absolute; top:250px; margin:auto; left:650px; border-radius:50%; text-shadow: 5px 5px 5px #D12A03;animation: scaleone 15s linear infinite;
+}
+@keyframes scaleone{
+	from{left: 100%;}
+			to{ left:0}
+		
+			}
+/*模板*/
+#box2{ background-color: #ddd;}
+footer{ background-color: #ddd;width: 100%;height: 100px;}
+#foot{width: 100px;height: 100px; margin:auto; top:30px; font-size:16px; color:#055198}
